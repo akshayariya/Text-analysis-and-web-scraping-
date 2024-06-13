@@ -4,7 +4,7 @@
 This repository contains a Python project that performs text analysis on articles scraped from various URLs. The project utilizes web scraping techniques to extract text content from web pages and applies Natural Language Processing (NLP) methods to analyze the extracted text. The analysis includes sentiment analysis, complexity metrics, average sentence length, and more.
 
 ## Files
-- **File1.py**: The main Python script that handles web scraping, text preprocessing, and analysis.
+- **main.py**: The main Python script that handles web scraping, text preprocessing, and analysis.
 - **Input.xlsx**: Excel file containing URLs from which data will be scraped.
 - **all_stopwords.txt**: A file containing a consolidated list of stopwords used for text preprocessing.
 - **Output_File.xlsx**: Output Excel file where analysis results are stored.
@@ -23,7 +23,7 @@ This repository contains a Python project that performs text analysis on article
 
 3. **Run the script:**
    ```bash
-   python File1.py
+   python main.py
    ```
    This script will perform the following steps:
    - Read URLs from `Input.xlsx`.
@@ -54,5 +54,5 @@ This repository contains a Python project that performs text analysis on article
 
 ## Notes
 - Ensure you have Python installed along with the necessary libraries (`pandas`, `requests`, `beautifulsoup4`, `nltk`, `textblob`).
-- The script `File1.py` performs web scraping and text analysis based on URLs provided in `Input.xlsx`.
+- The script `main.py` performs web scraping and text analysis based on URLs provided in `Input.xlsx`.
 - Results of the analysis are stored in `Output_File.xlsx` for further examination and use.
